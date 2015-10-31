@@ -1,3 +1,6 @@
 # DYCooperation
+# Author
+* D.Monkey
+* EchGuan
+* BanYuDu
 Swift product for cooperation.
-## m.jackiegg@gmail.com
