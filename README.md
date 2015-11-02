@@ -3,4 +3,4 @@ Swift product for cooperation.
 # Author
 * ![](etc/dmonkey.png) <a href="https://github.com/maqinjun">D.Monkey</a>
 * <a href="https://github.com/echguan">EchGuan</a>
-* ![](etc/banyudu.png) [banyudu](https://github.com/banyudu")
+* [banyudu](https://github.com/banyudu")
