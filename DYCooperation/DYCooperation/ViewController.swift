@@ -26,6 +26,12 @@ class ViewController: UIViewController {
         })
         */
         
+        let loginStoryboard : UIStoryboard = UIStoryboard(name: "Login", bundle: nil)
+        let loginViewController : UIViewController = loginStoryboard.instantiateViewControllerWithIdentifier("LoginViewController")
+        let window : UIWindow = UIApplication.sharedApplication().delegate!.window!!
+        window.rootViewController = loginViewController
+        window.makeKeyAndVisible()
+        
     }
 
     override func didReceiveMemoryWarning() {

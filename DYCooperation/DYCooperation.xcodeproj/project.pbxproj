@@ -13,6 +13,9 @@
 		3B99A2271BE50C63004251AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B99A2261BE50C63004251AA /* Assets.xcassets */; };
 		3B99A2351BE50C63004251AA /* DYCooperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B99A2341BE50C63004251AA /* DYCooperationTests.swift */; };
 		3B99A2401BE50C63004251AA /* DYCooperationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B99A23F1BE50C63004251AA /* DYCooperationUITests.swift */; };
+		87081E2B1C9C3583007CC3B2 /* Authorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87081E2A1C9C3583007CC3B2 /* Authorize.swift */; };
+		87081E2C1C9C3583007CC3B2 /* Authorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87081E2A1C9C3583007CC3B2 /* Authorize.swift */; };
+		87081E2D1C9C3583007CC3B2 /* Authorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87081E2A1C9C3583007CC3B2 /* Authorize.swift */; };
 		877A50151C91A12A00FACDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877A50141C91A12A00FACDF1 /* LaunchScreen.storyboard */; };
 		87E22BD81C91BE52004211B4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E22BD71C91BE52004211B4 /* Login.storyboard */; };
 		87E22BD91C91BE52004211B4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E22BD71C91BE52004211B4 /* Login.storyboard */; };
@@ -57,6 +60,7 @@
 		3B99A23B1BE50C63004251AA /* DYCooperationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYCooperationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B99A23F1BE50C63004251AA /* DYCooperationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYCooperationUITests.swift; sourceTree = "<group>"; };
 		3B99A2411BE50C63004251AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87081E2A1C9C3583007CC3B2 /* Authorize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authorize.swift; sourceTree = "<group>"; };
 		877A50141C91A12A00FACDF1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87E22BD71C91BE52004211B4 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		87E22BDB1C91BEC3004211B4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 				87E22BD71C91BE52004211B4 /* Login.storyboard */,
 				87E22BDF1C91C96D004211B4 /* SignUpViewController.swift */,
 				87E22BDB1C91BEC3004211B4 /* LoginViewController.swift */,
+				87081E2A1C9C3583007CC3B2 /* Authorize.swift */,
 				877A50141C91A12A00FACDF1 /* LaunchScreen.storyboard */,
 				3B99A2261BE50C63004251AA /* Assets.xcassets */,
 				3B99A22B1BE50C63004251AA /* Info.plist */,
@@ -351,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87081E2B1C9C3583007CC3B2 /* Authorize.swift in Sources */,
 				87E22BDC1C91BEC3004211B4 /* LoginViewController.swift in Sources */,
 				3B99A2221BE50C63004251AA /* ViewController.swift in Sources */,
 				87E22BE01C91C96E004211B4 /* SignUpViewController.swift in Sources */,
@@ -363,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87E22BE11C91C96E004211B4 /* SignUpViewController.swift in Sources */,
+				87081E2C1C9C3583007CC3B2 /* Authorize.swift in Sources */,
 				87E22BDD1C91BEC3004211B4 /* LoginViewController.swift in Sources */,
 				3B99A2351BE50C63004251AA /* DYCooperationTests.swift in Sources */,
 			);
@@ -373,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87E22BE21C91C96E004211B4 /* SignUpViewController.swift in Sources */,
+				87081E2D1C9C3583007CC3B2 /* Authorize.swift in Sources */,
 				87E22BDE1C91BEC3004211B4 /* LoginViewController.swift in Sources */,
 				3B99A2401BE50C63004251AA /* DYCooperationUITests.swift in Sources */,
 			);
